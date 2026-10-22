@@ -55,7 +55,7 @@ export const projects = [
     title: 'MultiRAG',
     description:
       'Content-aware multimodal RAG system for complex PDFs and document layouts using semantic chunking, cross-encoder reranking, and local LLM/VLM inference with 75% reduced hallucinations.',
-    href: 'https://github.com/Sihhhindra',
+    href: 'https://github.com/Sihhhindra/MultiRAG',
     logo: '/projects/multirag.svg',
   },
   {
