@@ -99,7 +99,15 @@ export const orgs: Record<string, Org> = {
   srm: { name: 'SRM Institute of Science and Technology', href: 'https://www.srmist.edu.in', logo: '/schools/srm.webp' },
 }
 
-export const achievements = [
+export const achievements: {
+  title: string
+  highlight: string
+  date: string
+  description: string
+  image: string
+  full?: string
+  focus?: string
+}[] = [
   {
     title: 'LeetCode & Competitive Programming',
     highlight: '250+ Solved.',
