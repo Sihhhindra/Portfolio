@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0e12"/>
+      <stop offset="100%" stop-color="#161822"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA116"/>
+      <stop offset="100%" stop-color="#FF6A00"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#0072FF"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222533" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#151722" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="520" fill="url(#bg)"/>
+  
+  <!-- Subtle Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="65" x2="680" y2="65"/>
+    <line x1="0" y1="130" x2="680" y2="130"/>
+    <line x1="0" y1="195" x2="680" y2="195"/>
+    <line x1="0" y1="260" x2="680" y2="260"/>
+    <line x1="0" y1="325" x2="680" y2="325"/>
+    <line x1="0" y1="390" x2="680" y2="390"/>
+    <line x1="0" y1="455" x2="680" y2="455"/>
+    <line x1="85" y1="0" x2="85" y2="520"/>
+    <line x1="170" y1="0" x2="170" y2="520"/>
+    <line x1="255" y1="0" x2="255" y2="520"/>
+    <line x1="340" y1="0" x2="340" y2="520"/>
+    <line x1="425" y1="0" x2="425" y2="520"/>
+    <line x1="510" y1="0" x2="510" y2="520"/>
+    <line x1="595" y1="0" x2="595" y2="520"/>
+  </g>
+
+  <!-- Header Pill -->
+  <rect x="50" y="45" width="230" height="36" rx="18" fill="#FFA116" fill-opacity="0.15" stroke="#FFA116" stroke-opacity="0.4"/>
+  <circle cx="70" cy="63" r="6" fill="#FFA116"/>
+  <text x="86" y="68" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#FFA116" letter-spacing="1.5">LEETCODE &amp; DSA</text>
+
+  <!-- Main Headline -->
+  <text x="50" y="130" font-family="'Inter', system-ui, sans-serif" font-size="38" font-weight="800" fill="#fbfaf9">
+    250+ Problems Solved
+  </text>
+  <text x="50" y="165" font-family="'Inter', sans-serif" font-size="16" font-weight="400" fill="#9d9db2">
+    Data Structures &amp; Algorithms across LeetCode, CodeForces &amp; CodeChef
+  </text>
+
+  <!-- Main Metric Cards -->
+  <!-- Card 1: Total Solved -->
+  <rect x="50" y="210" width="175" height="150" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="75" y="250" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#9d9db2">TOTAL SOLVED</text>
+  <text x="75" y="315" font-family="'Inter', sans-serif" font-size="44" font-weight="900" fill="#00E5FF">250+</text>
+  <rect x="75" y="332" width="125" height="4" rx="2" fill="#00E5FF" fill-opacity="0.3"/>
+  <rect x="75" y="332" width="105" height="4" rx="2" fill="#00E5FF"/>
+
+  <!-- Card 2: LeetCode Focus -->
+  <rect x="245" y="210" width="175" height="150" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="270" y="250" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#9d9db2">DSA PLATFORMS</text>
+  <text x="270" y="288" font-family="'Inter', sans-serif" font-size="17" font-weight="700" fill="#fbfaf9">• LeetCode</text>
+  <text x="270" y="314" font-family="'Inter', sans-serif" font-size="17" font-weight="700" fill="#fbfaf9">• CodeForces</text>
+  <text x="270" y="340" font-family="'Inter', sans-serif" font-size="17" font-weight="700" fill="#fbfaf9">• CodeChef</text>
+
+  <!-- Card 3: Core Algorithms -->
+  <rect x="440" y="210" width="190" height="150" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="465" y="250" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#9d9db2">CORE FOCUS</text>
+  <text x="465" y="285" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#FFA116">Dynamic Programming</text>
+  <text x="465" y="312" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#FFA116">Trees &amp; Graphs</text>
+  <text x="465" y="339" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#FFA116">Optimization &amp; Math</text>
+
+  <!-- Bottom Terminal / Stats Bar -->
+  <rect x="50" y="390" width="580" height="85" rx="14" fill="#0c0d12" stroke="#ffffff" stroke-opacity="0.06"/>
+  <circle cx="75" cy="415" r="5" fill="#ff5f56"/>
+  <circle cx="92" cy="415" r="5" fill="#ffbd2e"/>
+  <circle cx="109" cy="415" r="5" fill="#27c93f"/>
+  <text x="135" y="419" font-family="monospace" font-size="13" fill="#9d9db2">leet_stats.cpp - std::priority_queue, graph_bfs, segment_tree</text>
+  <text x="75" y="452" font-family="monospace" font-size="14" fill="#4ade80">> Status: Solved 250+ algorithmic challenges with high time-space efficiency</text>
+</svg>

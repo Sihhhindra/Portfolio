@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141622"/>
+      <stop offset="50%" stop-color="#1e2238"/>
+      <stop offset="100%" stop-color="#0a0b12"/>
+    </linearGradient>
+    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6374ff"/>
+      <stop offset="50%" stop-color="#faaedf"/>
+      <stop offset="100%" stop-color="#8fffc6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="200" height="200" rx="32" fill="url(#avatarBg)"/>
+
+  <!-- Chamfer Outer Glow Frame -->
+  <rect x="8" y="8" width="184" height="184" rx="26" fill="none" stroke="url(#glowBorder)" stroke-width="3" stroke-opacity="0.8"/>
+
+  <!-- Minimal Silhouette & Tech Nodes -->
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1">
+    <line x1="20" y1="50" x2="180" y2="50"/>
+    <line x1="20" y1="100" x2="180" y2="100"/>
+    <line x1="20" y1="150" x2="180" y2="150"/>
+    <line x1="50" y1="20" x2="50" y2="180"/>
+    <line x1="100" y1="20" x2="100" y2="180"/>
+    <line x1="150" y1="20" x2="150" y2="180"/>
+  </g>
+
+  <!-- Developer Avatar Silhouette -->
+  <circle cx="100" cy="74" r="32" fill="#2d334d"/>
+  <path d="M46 156 C 46 122, 70 114, 100 114 C 130 114, 154 122, 154 156 Z" fill="#2d334d"/>
+
+  <!-- Center Initials Badge -->
+  <circle cx="100" cy="74" r="24" fill="#0f1018" stroke="#6374ff" stroke-width="2"/>
+  <text x="100" y="83" font-family="'Inter', system-ui, sans-serif" font-size="20" font-weight="900" fill="#fbfaf9" text-anchor="middle" letter-spacing="1">IS</text>
+
+  <!-- Status Indicator Dot -->
+  <circle cx="138" cy="138" r="9" fill="#0f1018"/>
+  <circle cx="138" cy="138" r="6" fill="#8fffc6"/>
+</svg>
