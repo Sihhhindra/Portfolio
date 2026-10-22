@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520">
+  <defs>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040b17"/>
+      <stop offset="50%" stop-color="#0a182e"/>
+      <stop offset="100%" stop-color="#061224"/>
+    </linearGradient>
+    <linearGradient id="sfBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A1E0"/>
+      <stop offset="100%" stop-color="#0176D3"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002D62"/>
+      <stop offset="50%" stop-color="#0047AB"/>
+      <stop offset="100%" stop-color="#0176D3"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#112442" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0b172b" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="520" fill="url(#sbg)"/>
+
+  <!-- Subtle Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="65" x2="680" y2="65"/>
+    <line x1="0" y1="130" x2="680" y2="130"/>
+    <line x1="0" y1="195" x2="680" y2="195"/>
+    <line x1="0" y1="260" x2="680" y2="260"/>
+    <line x1="0" y1="325" x2="680" y2="325"/>
+    <line x1="0" y1="390" x2="680" y2="390"/>
+    <line x1="0" y1="455" x2="680" y2="455"/>
+    <line x1="85" y1="0" x2="85" y2="520"/>
+    <line x1="170" y1="0" x2="170" y2="520"/>
+    <line x1="255" y1="0" x2="255" y2="520"/>
+    <line x1="340" y1="0" x2="340" y2="520"/>
+    <line x1="425" y1="0" x2="425" y2="520"/>
+    <line x1="510" y1="0" x2="510" y2="520"/>
+    <line x1="595" y1="0" x2="595" y2="520"/>
+  </g>
+
+  <!-- Header Pill -->
+  <rect x="50" y="42" width="280" height="36" rx="18" fill="#00A1E0" fill-opacity="0.15" stroke="#00A1E0" stroke-opacity="0.45"/>
+  <circle cx="70" cy="60" r="6" fill="#00A1E0"/>
+  <text x="86" y="65" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#00A1E0" letter-spacing="1.5">SALESFORCE CERTIFIED</text>
+
+  <!-- Main Headline -->
+  <text x="50" y="125" font-family="'Inter', system-ui, sans-serif" font-size="34" font-weight="800" fill="#fbfaf9">
+    Agentforce Specialist
+  </text>
+  <text x="50" y="158" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#9d9db2">
+    Autonomous AI agents, multi-step agentic reasoning, prompt templates and tool invocation
+  </text>
+
+  <!-- Certificate Card Container -->
+  <rect x="50" y="190" width="580" height="230" rx="16" fill="url(#cardGrad)" stroke="#00A1E0" stroke-opacity="0.25"/>
+
+  <!-- Certificate Emblem Badge -->
+  <g transform="translate(75, 220)">
+    <polygon points="55,0 110,32 110,96 55,128 0,96 0,32" fill="url(#badgeGrad)" stroke="#00A1E0" stroke-width="2"/>
+    <path fill="#ffffff" fill-opacity="0.95" d="M55 20c4.5 0 8.5 2.5 10.6 6.3a12.8 12.8 0 0 1 8.8 8.6 10.3 10.3 0 0 1 8.3 9.8c0 5.7-4.6 10.3-10.3 10.3H38.5C33.3 55 29 50.8 29 45.7c0-4.6 3.4-8.4 7.8-9 1-4.8 5.2-8.7 10.2-8.7.6 0 1.2 0 1.8.2 1.6-4.8 6-8.2 6.2-8.2z" transform="scale(0.85) translate(10, 5)"/>
+    <text x="55" y="78" font-family="'Inter', sans-serif" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">CERTIFIED</text>
+    <text x="55" y="93" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#bce4ff" text-anchor="middle">Agentforce</text>
+    <text x="55" y="105" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#ffffff" text-anchor="middle">Specialist</text>
+  </g>
+
+  <!-- Certificate Info Grid -->
+  <text x="210" y="240" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#7ba3cc" letter-spacing="1">RECIPIENT</text>
+  <text x="210" y="266" font-family="'Inter', sans-serif" font-size="22" font-weight="700" fill="#fbfaf9">Indrajeet Singh</text>
+
+  <g transform="translate(210, 305)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#7ba3cc" letter-spacing="1">DATE ISSUED</text>
+    <text x="0" y="24" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Dec 28, 2025</text>
+
+    <text x="140" y="0" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#7ba3cc" letter-spacing="1">CREDENTIAL ID</text>
+    <text x="140" y="24" font-family="monospace" font-size="16" font-weight="700" fill="#00E5FF">7295802</text>
+
+    <text x="280" y="0" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#7ba3cc" letter-spacing="1">VERIFICATION</text>
+    <text x="280" y="24" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#00A1E0">sforce.co/verifycerts</text>
+  </g>
+
+  <!-- Bottom Verification Footer -->
+  <rect x="50" y="440" width="580" height="48" rx="10" fill="#071120" stroke="#00A1E0" stroke-opacity="0.15"/>
+  <circle cx="75" cy="464" r="5" fill="#22c55e"/>
+  <text x="92" y="468" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#86efac">Active &amp; Verified Credential</text>
+  <text x="270" y="468" font-family="'Inter', sans-serif" font-size="12" font-weight="400" fill="#64748b">— Issued by Salesforce &amp; Trailhead</text>
+</svg>

@@ -97,6 +97,7 @@ export const orgs: Record<string, Org> = {
   codeforces: { name: 'CodeForces', href: 'https://codeforces.com' },
   codechef: { name: 'CodeChef', href: 'https://www.codechef.com' },
   srm: { name: 'SRM Institute of Science and Technology', href: 'https://www.srmist.edu.in', logo: '/schools/srm.webp' },
+  salesforce: { name: 'Salesforce', href: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=7295802', logo: '/orgs/salesforce.svg' },
 }
 
 export const achievements: {
@@ -108,6 +109,14 @@ export const achievements: {
   full?: string
   focus?: string
 }[] = [
+  {
+    title: 'Salesforce Certified Agentforce Specialist',
+    highlight: 'Certified Specialist.',
+    date: 'Dec 2025',
+    description:
+      'Officially certified by {salesforce} as an Agentforce Specialist (Credential ID: 7295802), validating expertise in architecting autonomous AI agents, multi-step agent actions, prompt engineering, and proactive reasoning systems.',
+    image: img('salesforce-agentforce-achievement.svg'),
+  },
   {
     title: 'LeetCode & Competitive Programming',
     highlight: '250+ Solved.',
